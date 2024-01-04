@@ -1,7 +1,15 @@
 // Body
-$body-bg: #f8fafc;
+$body-bg: #e9f4ea;
 
 // Typography
 $font-family-sans-serif: 'Nunito', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+
+$sidebar-i-margin-right:10px;
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color:#131e16;
+    background:#008B8B;
+}
